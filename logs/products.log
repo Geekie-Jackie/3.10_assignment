@@ -1,0 +1,150 @@
+2023-08-27 16:38:01.923  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : Starting Simplecrm2Application using Java 17.0.8 on Starlight with PID 6332 (/root/3.10-maven-revision/3.10_assignment/target/classes started by root in /root/3.10-maven-revision/3.10_assignment)
+2023-08-27 16:38:01.924  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : No active profile set, falling back to 1 default profile: "default"
+2023-08-27 16:38:02.030  INFO 6332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-27 16:38:02.031  INFO 6332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-27 16:38:02.031  INFO 6332 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-08-27 16:38:02.037  INFO 6332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-27 16:38:02.037  INFO 6332 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 112 ms
+2023-08-27 16:38:02.119  INFO 6332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-27 16:38:02.125  INFO 6332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-27 16:38:02.132  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : Started Simplecrm2Application in 0.226 seconds (JVM running for 200.825)
+2023-08-27 16:38:02.137  INFO 6332 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-08-27 16:38:17.500  INFO 6332 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-27 16:38:17.501  INFO 6332 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-27 16:38:17.501  INFO 6332 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-08-27 16:38:17.503  WARN 6332 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.simplecrm2.simplecrm2.Product> com.simplecrm2.simplecrm2.ProductController.createProduct(com.simplecrm2.simplecrm2.Product)]
+2023-08-27 16:38:25.042  INFO 6332 --- [http-nio-8080-exec-4] c.s.simplecrm2.ProductController         : 🟢 Added 1 new product.
+2023-08-27 16:38:25.496  INFO 6332 --- [http-nio-8080-exec-5] c.s.simplecrm2.ProductController         : 🟢 Added 1 new product.
+2023-08-27 16:38:26.327  INFO 6332 --- [http-nio-8080-exec-6] c.s.simplecrm2.ProductController         : 🟢 Added 1 new product.
+2023-08-27 16:38:31.683  WARN 6332 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.simplecrm2.simplecrm2.Product> com.simplecrm2.simplecrm2.ProductController.createProduct(com.simplecrm2.simplecrm2.Product)]
+2023-08-27 16:38:37.169  INFO 6332 --- [http-nio-8080-exec-9] c.s.simplecrm2.ProductController         : 🟢 Viewed all product(s).
+2023-08-27 16:38:52.093  INFO 6332 --- [http-nio-8080-exec-10] c.s.simplecrm2.ProductController         : 🟢 Viewed 1 product. Product ID: d6b147e8-aa24-4001-a77a-179b8833b257
+2023-08-27 16:40:05.582  INFO 6332 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-27 16:40:05.583  INFO 6332 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-27 16:40:05.584  INFO 6332 --- [Thread-11] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-27 16:40:05.622  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : Starting Simplecrm2Application using Java 17.0.8 on Starlight with PID 6332 (/root/3.10-maven-revision/3.10_assignment/target/classes started by root in /root/3.10-maven-revision/3.10_assignment)
+2023-08-27 16:40:05.623  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : No active profile set, falling back to 1 default profile: "default"
+2023-08-27 16:40:05.719  INFO 6332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-27 16:40:05.720  INFO 6332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-27 16:40:05.720  INFO 6332 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-08-27 16:40:05.725  INFO 6332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-27 16:40:05.725  INFO 6332 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 101 ms
+2023-08-27 16:40:05.777  INFO 6332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-27 16:40:05.782  INFO 6332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-27 16:40:05.785  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : Started Simplecrm2Application in 0.178 seconds (JVM running for 324.478)
+2023-08-27 16:40:05.787  INFO 6332 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-08-27 16:40:10.180  INFO 6332 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-27 16:40:10.182  INFO 6332 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-27 16:40:10.244  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : Starting Simplecrm2Application using Java 17.0.8 on Starlight with PID 6332 (/root/3.10-maven-revision/3.10_assignment/target/classes started by root in /root/3.10-maven-revision/3.10_assignment)
+2023-08-27 16:40:10.244  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : No active profile set, falling back to 1 default profile: "default"
+2023-08-27 16:40:10.416  INFO 6332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-27 16:40:10.417  INFO 6332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-27 16:40:10.421  INFO 6332 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-08-27 16:40:10.429  INFO 6332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-27 16:40:10.429  INFO 6332 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 183 ms
+2023-08-27 16:40:10.527  INFO 6332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-27 16:40:10.532  INFO 6332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-27 16:40:10.536  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : Started Simplecrm2Application in 0.316 seconds (JVM running for 329.229)
+2023-08-27 16:40:10.547  INFO 6332 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-08-27 16:40:11.933  INFO 6332 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-27 16:40:11.934  INFO 6332 --- [Thread-19] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-27 16:40:11.980  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : Starting Simplecrm2Application using Java 17.0.8 on Starlight with PID 6332 (/root/3.10-maven-revision/3.10_assignment/target/classes started by root in /root/3.10-maven-revision/3.10_assignment)
+2023-08-27 16:40:11.980  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : No active profile set, falling back to 1 default profile: "default"
+2023-08-27 16:40:12.097  INFO 6332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-27 16:40:12.097  INFO 6332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-27 16:40:12.098  INFO 6332 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-08-27 16:40:12.101  INFO 6332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-27 16:40:12.101  INFO 6332 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 119 ms
+2023-08-27 16:40:12.156  INFO 6332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-27 16:40:12.161  INFO 6332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-27 16:40:12.164  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : Started Simplecrm2Application in 0.2 seconds (JVM running for 330.857)
+2023-08-27 16:40:12.165  INFO 6332 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-08-27 16:40:23.562  INFO 6332 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-27 16:40:23.563  INFO 6332 --- [Thread-23] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-27 16:40:23.604  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : Starting Simplecrm2Application using Java 17.0.8 on Starlight with PID 6332 (/root/3.10-maven-revision/3.10_assignment/target/classes started by root in /root/3.10-maven-revision/3.10_assignment)
+2023-08-27 16:40:23.604  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : No active profile set, falling back to 1 default profile: "default"
+2023-08-27 16:40:23.695  INFO 6332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-27 16:40:23.696  INFO 6332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-27 16:40:23.696  INFO 6332 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-08-27 16:40:23.701  INFO 6332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-27 16:40:23.701  INFO 6332 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 96 ms
+2023-08-27 16:40:23.763  INFO 6332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-27 16:40:23.769  INFO 6332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-27 16:40:23.782  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : Started Simplecrm2Application in 0.191 seconds (JVM running for 342.475)
+2023-08-27 16:40:23.783  INFO 6332 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-08-27 16:40:56.178  INFO 6332 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-27 16:40:56.185  INFO 6332 --- [Thread-27] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-27 16:40:56.296  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : Starting Simplecrm2Application using Java 17.0.8 on Starlight with PID 6332 (/root/3.10-maven-revision/3.10_assignment/target/classes started by root in /root/3.10-maven-revision/3.10_assignment)
+2023-08-27 16:40:56.297  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : No active profile set, falling back to 1 default profile: "default"
+2023-08-27 16:40:56.500  INFO 6332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-27 16:40:56.501  INFO 6332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-27 16:40:56.501  INFO 6332 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-08-27 16:40:56.507  INFO 6332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-27 16:40:56.508  INFO 6332 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 209 ms
+2023-08-27 16:40:56.562  INFO 6332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-27 16:40:56.567  INFO 6332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-27 16:40:56.570  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : Started Simplecrm2Application in 0.294 seconds (JVM running for 375.263)
+2023-08-27 16:40:56.572  INFO 6332 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-08-27 16:40:57.964  INFO 6332 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-27 16:40:57.966  INFO 6332 --- [Thread-31] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-27 16:40:58.003  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : Starting Simplecrm2Application using Java 17.0.8 on Starlight with PID 6332 (/root/3.10-maven-revision/3.10_assignment/target/classes started by root in /root/3.10-maven-revision/3.10_assignment)
+2023-08-27 16:40:58.003  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : No active profile set, falling back to 1 default profile: "default"
+2023-08-27 16:40:58.091  INFO 6332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-27 16:40:58.092  INFO 6332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-27 16:40:58.092  INFO 6332 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-08-27 16:40:58.095  INFO 6332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-27 16:40:58.095  INFO 6332 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 90 ms
+2023-08-27 16:40:58.137  INFO 6332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-27 16:40:58.143  INFO 6332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-27 16:40:58.146  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : Started Simplecrm2Application in 0.158 seconds (JVM running for 376.839)
+2023-08-27 16:40:58.147  INFO 6332 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-08-27 16:41:04.542  INFO 6332 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-27 16:41:04.544  INFO 6332 --- [Thread-35] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-27 16:41:04.579  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : Starting Simplecrm2Application using Java 17.0.8 on Starlight with PID 6332 (/root/3.10-maven-revision/3.10_assignment/target/classes started by root in /root/3.10-maven-revision/3.10_assignment)
+2023-08-27 16:41:04.579  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : No active profile set, falling back to 1 default profile: "default"
+2023-08-27 16:41:04.671  INFO 6332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-27 16:41:04.672  INFO 6332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-27 16:41:04.672  INFO 6332 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-08-27 16:41:04.676  INFO 6332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-27 16:41:04.676  INFO 6332 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 96 ms
+2023-08-27 16:41:04.735  INFO 6332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-27 16:41:04.740  INFO 6332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-27 16:41:04.744  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : Started Simplecrm2Application in 0.177 seconds (JVM running for 383.436)
+2023-08-27 16:41:04.744  INFO 6332 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-08-27 16:41:11.141  INFO 6332 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-27 16:41:11.142  INFO 6332 --- [Thread-39] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-27 16:41:11.183  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : Starting Simplecrm2Application using Java 17.0.8 on Starlight with PID 6332 (/root/3.10-maven-revision/3.10_assignment/target/classes started by root in /root/3.10-maven-revision/3.10_assignment)
+2023-08-27 16:41:11.183  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : No active profile set, falling back to 1 default profile: "default"
+2023-08-27 16:41:11.275  INFO 6332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-27 16:41:11.276  INFO 6332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-27 16:41:11.276  INFO 6332 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-08-27 16:41:11.281  INFO 6332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-27 16:41:11.281  INFO 6332 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 97 ms
+2023-08-27 16:41:11.346  INFO 6332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-27 16:41:11.351  INFO 6332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-27 16:41:11.356  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : Started Simplecrm2Application in 0.19 seconds (JVM running for 390.049)
+2023-08-27 16:41:11.357  INFO 6332 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-08-27 16:41:12.747  INFO 6332 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-27 16:41:12.749  INFO 6332 --- [Thread-43] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-27 16:41:12.788  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : Starting Simplecrm2Application using Java 17.0.8 on Starlight with PID 6332 (/root/3.10-maven-revision/3.10_assignment/target/classes started by root in /root/3.10-maven-revision/3.10_assignment)
+2023-08-27 16:41:12.789  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : No active profile set, falling back to 1 default profile: "default"
+2023-08-27 16:41:12.888  INFO 6332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-27 16:41:12.888  INFO 6332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-27 16:41:12.889  INFO 6332 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-08-27 16:41:12.892  INFO 6332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-27 16:41:12.894  INFO 6332 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 104 ms
+2023-08-27 16:41:12.945  INFO 6332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-27 16:41:12.949  INFO 6332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-27 16:41:12.952  INFO 6332 --- [restartedMain] c.s.simplecrm2.Simplecrm2Application     : Started Simplecrm2Application in 0.178 seconds (JVM running for 391.645)
+2023-08-27 16:41:12.953  INFO 6332 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-08-27 16:41:23.957  INFO 6332 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-27 16:41:23.957  INFO 6332 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-27 16:41:23.958  INFO 6332 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-27 16:41:23.960  INFO 6332 --- [http-nio-8080-exec-2] c.s.simplecrm2.ProductController         : 🟢 Added 1 new product. Product ID: 1b4f5f56-8e2a-401d-852d-e8ea0ab35975
+2023-08-27 16:41:28.108  INFO 6332 --- [http-nio-8080-exec-3] c.s.simplecrm2.ProductController         : 🟢 Added 1 new product. Product ID: 082f0997-3d64-4e39-aa56-c852d5c26b7d
+2023-08-27 16:41:54.189  INFO 6332 --- [http-nio-8080-exec-4] c.s.simplecrm2.ProductController         : 🟢 Added 1 new product. Product ID: 897cde47-63bf-42f2-8bc0-5e5295862126
+2023-08-27 16:41:55.024  INFO 6332 --- [http-nio-8080-exec-5] c.s.simplecrm2.ProductController         : 🟢 Added 1 new product. Product ID: c01876ca-06bd-4efa-a3a8-00bfafb6ed22
+2023-08-27 16:41:56.019  INFO 6332 --- [http-nio-8080-exec-6] c.s.simplecrm2.ProductController         : 🟢 Added 1 new product. Product ID: edbf5342-bd17-400f-a0e5-9aa8da442198
+2023-08-27 16:42:23.055  INFO 6332 --- [http-nio-8080-exec-7] c.s.simplecrm2.ProductController         : 🟢 Viewed 1 product. Product ID: 897cde47-63bf-42f2-8bc0-5e5295862126
+2023-08-27 16:42:32.047 ERROR 6332 --- [http-nio-8080-exec-8] c.s.simplecrm2.ProductController         : 🔴 Incorrect product ID or product ID doesn't exist.
+2023-08-27 16:42:40.764 ERROR 6332 --- [http-nio-8080-exec-9] c.s.simplecrm2.ProductController         : 🔴 Incorrect product ID or product ID doesn't exist.
